@@ -17,7 +17,7 @@ export default function Contact() {
      
       <div className="z-10">
         <h5 className="my-2 text-xl font-bold text-white">
-         CONTACT ME
+         Contact Me
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}
@@ -26,16 +26,22 @@ export default function Contact() {
           try my best to get back to you!
         </p>
         <div className="flex flex-row gap-2 socials">
-          <Link href="github.com">
+          <Link 
+          href="https://github.com/Senseijacoby"
+          target="_blank"
+          >
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
-          <Link href="linkedin.com">
+          <Link href="https://www.linkedin.com/in/jack-migwambo-741b2269/"  target="_blank">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
         </div>
       </div>
       <div className="z-10">
-        <form className="flex flex-col">
+        <form
+        action="https://getform.io/f/ed286a21-1983-461b-8dc7-c6c3bbff9b1c"
+        method="POST"
+         className="flex flex-col">
           <div className="mb-6">
             <label
               htmlFor="email"
@@ -97,13 +103,12 @@ export default function Contact() {
           </div>
           <button
             type="submit"
-            className="bg-primary-500 hover:bg-primary-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
+            className="bg-primary-500 hover:bg-primary-600 text-white font-medium py-2.5 px-5 rounded-lg w-full hover:scale-110 duration-300"
           >
             SEND
           </button>
         </form>
       </div>
-      
     </section>
   );
 }
