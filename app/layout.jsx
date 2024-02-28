@@ -1,13 +1,12 @@
-import './globals.css'
-import { Inter } from 'next/font/google'
-import { siteConfig } from '@/utils/site'
-import Navbar from '@/components/Navbar'
-import Footer from '@/components/Footer'
+import "./globals.css";
+import { Inter } from "next/font/google";
+import { siteConfig } from "@/utils/site";
+import Navbar from "@/components/Navbar";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-   title: {
+  title: {
     default: siteConfig.name,
     template: `%s | ${siteConfig.name}`,
   },
@@ -15,20 +14,18 @@ export const metadata = {
   icons: [
     {
       url: "/logo.svg",
-      href: "/logo.svg"
-    }
-  ]
-}
-
+      href: "/logo.svg",
+    },
+  ],
+};
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar/>
+        <Navbar />
         {children}
-         <Footer/>
-        </body>
+      </body>
     </html>
-  )
+  );
 }

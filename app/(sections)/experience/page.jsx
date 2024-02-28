@@ -24,10 +24,12 @@ export default function Experience() {
   };
 
   return (
-    <section id="projects" className="md:mx-10 md:mb-10">
-      <h2 className="mt-4 mb-8 text-4xl font-bold text-center text-white md:mb-12">
+    <section className="bg-gradient-to-r from-slate-900 to-slate-700 ">
+      <div className="bg-[conic-gradient(var(--tw-gradient-stops))]  from-gray-900 via-indigo-900 to-violet-900"></div>
+      <h2 className="mt-20 mb-5 text-4xl font-bold text-center text-white md:mb-12">
         My Projects
       </h2>
+
       <div className="flex flex-row items-center justify-center gap-2 py-6 text-white">
         <PortfolioTag
           onClick={handleTagChange}

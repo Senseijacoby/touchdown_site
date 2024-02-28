@@ -1,5 +1,9 @@
 export const navLinks = [
   {
+    title: "Home",
+    path: "/home",
+  },
+  {
     title: "Profile",
     path: "/about",
   },
@@ -19,12 +23,21 @@ export const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="pl-2 list-disc">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
         <li>JavaScript</li>
-        <li>React</li>
+        <li>HTML & CSS</li>
+        <li>TypeScriptJS</li>
+        <li>NodeJS</li>
+        <li>ReactJS</li>
+        <li>NextJS</li>
+        <li>ExpressJS</li>
+        <li>MongoDB</li>
+        <li>MySQL</li>
+        <li>PostgreSQL</li>
+        <li>Prisma ORM</li>
+        <li>Django/Python</li>
+        <li>Supabase | Firebase</li>
+
+
       </ul>
     ),
   },
@@ -33,8 +46,9 @@ export const TAB_DATA = [
     id: "education",
     content: (
       <ul className="pl-2 list-disc">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>Metropolia Ammattikorkeakoulu</li>
+        <li>Kenyatta University</li>
+        <li>&#42;Technology Articles,Journals & Documentations</li>
       </ul>
     ),
   },
@@ -43,8 +57,9 @@ export const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="pl-2 list-disc">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>F-Secure Corporate Security Management</li>
+        <li>F-Secure Corporate End-Point Security </li>
+        <li>F-Secure Email and Server Security </li>
       </ul>
     ),
   },
@@ -107,26 +122,7 @@ export const experienceData = [
   },
 ];
 
-export const honoursList = [
-  {
-    metric: "Projects",
-    value: "100",
-    postfix: "+",
-  },
-  {
-    prefix: "~",
-    metric: "Users",
-    value: "100,000",
-  },
-  {
-    metric: "Awards",
-    value: "7",
-  },
-  {
-    metric: "Years",
-    value: "5",
-  },
-];
+
 
 export const portfolioData = [
   {

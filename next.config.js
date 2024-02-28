@@ -16,7 +16,7 @@ const nextConfig = {
             },
             {
                 protocol: "https",
-                hostname: "placehold.co",
+                hostname: "private-user-images.githubusercontent.com",
             },
         ],
     }

@@ -1,5 +1,5 @@
 import React from "react";
-import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/outline";
+import { Eye as CodeBracketIcon, Code2 as EyeIcon } from "lucide-react";
 import Link from "next/link";
 
 export default function PortfolioCard({

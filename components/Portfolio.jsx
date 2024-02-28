@@ -6,8 +6,6 @@ import PortfolioCard from "@/components/PortfolioCard";
 import { motion, useInView } from "framer-motion";
 import { portfolioData } from "@/utils/constants";
 
-
-
 const Portfolio = () => {
   const [tag, setTag] = useState("All");
   const ref = useRef(null);
@@ -27,7 +25,7 @@ const Portfolio = () => {
   };
 
   return (
-    <section id="projects">
+    <section id="projects" className="min-h-screen">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         My Projects
       </h2>
