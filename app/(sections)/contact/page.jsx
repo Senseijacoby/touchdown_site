@@ -31,14 +31,13 @@ export default function Contact() {
         >
           <div className="mb-6">
             <label
-              htmlFor="email"
+              htmlFor="name"
               className="block mb-2 text-sm font-medium text-white"
             >
               Name
             </label>
             <input
-              type="email"
-              id="email"
+              type="name"
               required
               className="bg-form_bg border border-form_border placeholder-form_placeholder text-gray-100 text-sm rounded-lg block w-full p-2.5"
               placeholder="John Wick"
@@ -53,7 +52,6 @@ export default function Contact() {
             </label>
             <input
               type="email"
-              id="email"
               required
               className="bg-form_bg border border-form_border placeholder-form_placeholder text-gray-100 text-sm rounded-lg block w-full p-2.5"
               placeholder="johnwick@yopmail.com"
